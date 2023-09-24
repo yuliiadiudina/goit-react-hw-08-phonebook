@@ -8,10 +8,10 @@ import {
   StyledForm,
   StyledInput,
   FormButton,
-  } from './ContactForm.styled.jsx';
-  import { getContacts } from '../../redux/selectors';
-  import { addContact } from '../../redux/operations.js';
-  import { setFilter } from '../../redux/filterSlice';
+  } from './Form.styled.jsx';
+  import { getContacts } from '../../redux/contacts/selectors.js';
+  import { addContact } from '../../redux/contacts/operations.js';
+  import { setFilter } from '../../redux/contacts/filterSlice.js';
 
 const schema = yup
   .object()

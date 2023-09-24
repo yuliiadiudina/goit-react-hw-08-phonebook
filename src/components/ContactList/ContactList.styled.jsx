@@ -1,8 +1,10 @@
 import styled from '@emotion/styled';
 import { FaTrash } from 'react-icons/fa';
+
 export const List = styled.ul`
 display: flex;
-flex-direction: column;
+justify-content: center;
+margine: 0, auto;
 gap: 15px;
 `;
 
@@ -32,10 +34,10 @@ export const DeleteButton = styled.button`
 `;
 
 export const DeleteIcon = styled(FaTrash)`
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   &:hover,
   &:focus {
-    color: red;
+    color: rgb(181, 181, 127);
   }
 `;
